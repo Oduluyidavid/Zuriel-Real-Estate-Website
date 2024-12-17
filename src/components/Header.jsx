@@ -116,7 +116,6 @@ const Header = () => {
           
           </h1>
         </a>
-        {/* <FaUserCircle className="size-6 text-red-600" /> */}
       </div>
     </nav>
   );
