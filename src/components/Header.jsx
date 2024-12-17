@@ -85,7 +85,7 @@ const Header = () => {
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } w-7 h-fit bg-slate-800 p-4  absolute right-8  top-[80px] left-0`}
+        } w-8 h-fit bg-slate-800 p-4  absolute right-5 dark:hover:bg-black top-[80px] left-1`}
         onClick={closeMenu}
       >
         <ul className="flex flex-col justify-center items-center gap-2 w-full">
@@ -112,9 +112,7 @@ const Header = () => {
         >
           <FaPhoneAlt className="size-5 text-red-600" />
 
-          <h1 className="lg:text-xl text-sm text-black dark:text-white font-semibold">
-          
-          </h1>
+          <h1 className="lg:text-xl text-sm text-black dark:text-white font-semibold"></h1>
         </a>
       </div>
     </nav>

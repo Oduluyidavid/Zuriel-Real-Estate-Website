@@ -62,9 +62,6 @@ const Footer = () => {
               <FaYoutube className="size-5" />
             </div>
           </div>
-          <h1 className="text-white mt-8 fixed bottom-0 items-center">
-            Copyright 2024 Real Estate,All Rights Reserved
-          </h1>
         </div>
 
         <div className="flex flex-col justify-center items-start gap-5">
@@ -87,8 +84,8 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
-            <a href="">
-              <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
+            <a href="mailto:oduluyidavidadegoke@gmail.com">
+              <p className="text-slate-200"></p>
             </a>
           </div>
         </div>
@@ -149,6 +146,9 @@ const Footer = () => {
             <FaSun size={20} className="text-black" />
           )}
         </button>
+        <h1 className="text-white mt-8 fixed bottom-0 justify-center items-center">
+          Copyright 2024 Zuriel Real Estate Properties,All Rights Reserved
+        </h1>
       </div>
     </>
   );

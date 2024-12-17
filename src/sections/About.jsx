@@ -28,9 +28,9 @@ const About = () => {
       <div className='flex flex-col justify-center items-start gap-8'>
         <h1 data-aos='zoom-in'className='text-red-500 dark:text-white'>WHO WE ARE
         </h1>
-        <h1 data-aos='zoom-in' data-aos-delay='200' className='text-black text-[40px] font-semibold leading-10 dark:text-white'>
+        <h1 data-aos='zoom-in' data-aos-delay='200' className='text-black text-[40px] font-semibold leading-10 dark:text-black'>
           We represents sellers or buyers of real estate or real property.</h1>
-          <p data-aos="zoom-in" data-aos-delay="400" className='text-xl text-gray-600 dark:text-white text-justify'>
+          <p data-aos="zoom-in" data-aos-delay="400" className='text-xl text-gray-600 dark:text-black text-justify'>
             Real estate is an imperishable asset, ever increasing in value. It is the most solid security that human ingenuity has devised. 
             It is the basis of all security and about the only indestructible security.
           </p>
