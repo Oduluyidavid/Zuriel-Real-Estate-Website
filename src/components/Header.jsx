@@ -114,6 +114,8 @@ const Header = () => {
 
           <h1 className="lg:text-xl text-sm text-black dark:text-white font-semibold"></h1>
         </a>
+
+        {/* <FaUserCircle className="size-6 text-red-600" /> */}
       </div>
     </nav>
   );
