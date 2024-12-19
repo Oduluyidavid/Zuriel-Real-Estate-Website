@@ -85,7 +85,7 @@ const Header = () => {
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } w-8 h-fit bg-slate-800 p-4  absolute right-5 dark:hover:bg-black top-[80px] left-1`}
+        } w-full h-fit bg-neutral-800 p-4 absolute dark:hover:bg-black top-[80px] left-1`}
         onClick={closeMenu}
       >
         <ul className="flex flex-col justify-center items-center gap-2 w-full">
@@ -93,7 +93,7 @@ const Header = () => {
             <Link
               key={path}
               className="text-white uppercase font-semibold cursor-pointer p-3
-                 rounded-lg hover:bg-red-600 hover:text-black w-full text-center"
+                 rounded-lg hover:bg-blue-600 hover:text-black w-full text-center"
               to={path}
               spy={true}
               offset={-100}
@@ -105,12 +105,12 @@ const Header = () => {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center items-center lg:gap-8 gap-2">
+      <div className="flex justify-center items-center lg:gap-8 gap-3 ">
         <a
           href="tel:2349068767395"
-          className="flex justify-center items-center lg:gap-3 gap-1"
+          className="flex justify-center items-center lg:gap-5 sm:gap-8 gap[-5] z-10"
         >
-          <FaPhoneAlt className="size-5 text-red-600 " />
+          <FaPhoneAlt className="size-5 text-red-600 z-10 " />
 
           <h1 className="lg:text-xl text-sm text-black dark:text-white font-semibold"></h1>
         </a>

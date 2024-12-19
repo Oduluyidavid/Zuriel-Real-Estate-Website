@@ -65,7 +65,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center items-start gap-5">
-          <h1 className="text-white text-2xl justify-center font-semibold">Reach out to us</h1>
+          <h1 className="text-white text-2xl justify-center font-semibold">
+            Reach out to us
+          </h1>
           <div className="flex justify-center items-center gap-3">
             <FaBuilding className="text-white size-12 " />
             <p className="text-slate-200">
@@ -79,8 +81,9 @@ const Footer = () => {
             <p className="text-slate-200">+2349068767395</p>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <FaFax className="text-white size-5" />
-            <p className="text-slate-200">+2348033935562</p>
+            <FaFax className="text-white size-5 cursor-pointer" />
+
+            <p className="text-slate-200 cursor-pointer">+2348033935562</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
@@ -141,15 +144,14 @@ const Footer = () => {
         rounded-full bg-blue-500 fixed top-20 right-6 z-30"
         >
           {darkMode ? (
-            <FaMoon size={20} className="text-black" />
+            <FaMoon size={20} className="text-black sm:gap-0" />
           ) : (
-            <FaSun size={20} className="text-black" />
+            <FaSun size={20} className="text-black sm:gap-0" />
           )}
         </button>
-        <h1 className="bg-black text-white mt-8 bottom-0 justify-center text-align:center items-center">
-             Copyright 2024 Zuriel Real estate Properties, All Rights Reserved.
+        <h1 className="bg-black text-white  grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
+          Copyright 2024 Zuriel Real estate Properties,all rights reserved.
         </h1>
-        
       </div>
     </>
   );
