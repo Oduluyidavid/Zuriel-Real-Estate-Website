@@ -85,7 +85,7 @@ const Header = () => {
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } w-full h-fit bg-neutral-800 p-4 absolute dark:hover:bg-black top-[80px] left-1`}
+        } w-full h-fit bg-neutral-800 p-4 absolute top-[80px] left-0`}
         onClick={closeMenu}
       >
         <ul className="flex flex-col justify-center items-center gap-2 w-full">

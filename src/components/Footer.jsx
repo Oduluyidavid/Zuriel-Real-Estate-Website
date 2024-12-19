@@ -144,9 +144,9 @@ const Footer = () => {
         rounded-full bg-blue-500 fixed top-20 right-6 z-30"
         >
           {darkMode ? (
-            <FaMoon size={20} className="text-black sm:gap-0" />
+            <FaMoon size={20} className="text-black z-30" />
           ) : (
-            <FaSun size={20} className="text-black sm:gap-0" />
+            <FaSun size={20} className="text-black z-30" />
           )}
         </button>
         <h1 className="bg-black text-white  grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
