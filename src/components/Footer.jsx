@@ -150,7 +150,7 @@ const Footer = () => {
           )}
         </button>
         <h1 className="bg-black text-white  grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
-          Copyright 2024 Zuriel Real estate Properties,all rights reserved.
+          Copyright 2024 Zuriel Real estate Properties.
         </h1>
       </div>
     </>
