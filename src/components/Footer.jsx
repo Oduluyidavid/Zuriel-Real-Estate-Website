@@ -8,9 +8,9 @@ import {
   FaBuilding,
   FaMobile,
   FaFax,
-  FaArrowUp,
   FaMoon,
   FaSun,
+  FaArrowUp,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { IoMdMail } from "react-icons/io";
@@ -23,7 +23,7 @@ const Footer = () => {
     <>
       <footer
         className={`${
-          darkMode ? "dark bg-black" : "light bg-gray-800"
+          darkMode ? "dark bg-black" : "light bg-sky-800"
         } w-full m-auto lg:px-20 px-10 py-20 lg:grid-cols-3 grid-cols-1 justify-center items-start lg:gap-20 gap-10`}
       >
         <div className="lg:flex flex-col justify-center items-start gap-5">
@@ -65,9 +65,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center items-start gap-5">
-          <h1 className="text-white text-2xl font-semibold">Contact Us</h1>
+          <h1 className="text-white text-2xl justify-center font-semibold">Reach out to us</h1>
           <div className="flex justify-center items-center gap-3">
-            <FaBuilding className="text-white size-6 " />
+            <FaBuilding className="text-white size-12 " />
             <p className="text-slate-200">
               By investing in real estate, you may benefit from this
               appreciation, allowing you to build wealth as the property value
@@ -85,7 +85,7 @@ const Footer = () => {
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
             <a href="mailto:oduluyidavidadegoke@gmail.com">
-              <p className="text-slate-200"></p>
+              <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
             </a>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Footer = () => {
             />
             <div>
               <h1 className="text-lg text-white">Villa with amazing view</h1>
-              <p className="text-slate-400">$ 287.98</p>
+              <p className="text-slate-400"></p>
             </div>
           </div>
           <div className="flex justify-center items-center gap-4">
@@ -115,7 +115,7 @@ const Footer = () => {
             />
             <div>
               <h1 className="text-lg text-white">Smart view from beach</h1>
-              <p className="text-slate-400">$ 587.98</p>
+              <p className="text-slate-400"></p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ const Footer = () => {
        cursor-pointer fixed lg:buttom-12 buttom-6 right-6"
       >
         <Link to="hero" spy={true} offset={-100} smooth={true}>
-          <FaArrowUp className="size-6 text-white" />
+          <FaArrowUp className="size-5 text-black" />
         </Link>
       </div>
 
@@ -146,9 +146,10 @@ const Footer = () => {
             <FaSun size={20} className="text-black" />
           )}
         </button>
-        <h1 className="text-white mt-8 fixed bottom-0 justify-center items-center">
-          Copyright 2024 Zuriel Real Estate Properties,All Rights Reserved
+        <h1 className="bg-black text-white mt-8 bottom-0 justify-center text-align:center items-center">
+             Copyright 2024 Zuriel Real estate Properties, All Rights Reserved.
         </h1>
+        
       </div>
     </>
   );

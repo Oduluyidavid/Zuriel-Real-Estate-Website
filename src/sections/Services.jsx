@@ -20,7 +20,7 @@ const Services = () => {
 
   return (
     <div className={`${darkMode ? 'dark bg-black' : 'light bg-transparent'} pb-20`}>
-      <section id='services' className={`${darkMode ? 'dark bg-gray-800' : 'light bg-red-100'} 
+      <section id='services' className={`${darkMode ? 'dark bg-gray-800' : 'light bg-blue-100'} 
        lg:w-[95%] w-full h-fit m-auto rounded-xl flex flex-col justify-center items-start lg:px-20 px-6 py-10 gap-10`}>
         <div className='flex flex-col justify-center items-start gap-4'>
           <h1 data-aos='zoom-in' className='text-red-500 dark:text-white'>OUR SERVICES</h1>
