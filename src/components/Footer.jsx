@@ -10,12 +10,16 @@ import {
   FaFax,
   FaMoon,
   FaSun,
-  FaArrowUp,
+  FaLinkedin,
+  FaWhatsappSquare,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { IoMdMail } from "react-icons/io";
 import prop7 from "../assets/images/prop7.jpg";
-import prop8 from "../assets/images/prop8.jpg";
+import prop10 from "../assets/images/prop10.jpg";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaArrowUp } from "react-icons/fa6";
+
 
 const Footer = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
@@ -37,12 +41,30 @@ const Footer = () => {
             id="social-icons"
             className="flex justify-start items-center gap-4 mt-4"
           >
-            <div
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
-                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+            <a
+              href="https://Wa.me/+2348065074094"
+              target="blank"
+              className="ml-1 h-[inherit]"
             >
-              <FaFacebookF className="size-5" />
-            </div>
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaWhatsappSquare className="size-5" />
+              </div>
+            </a>
+            <a
+              href="https://Wa.me/+2348065074094"
+              target="blank"
+              className="ml-1 h-[inherit]"
+            >
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaLinkedin className="size-5" />
+              </div>
+            </a>
             <div
               className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
@@ -64,9 +86,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-start gap-5">
-          <h1 className="text-white text-2xl justify-center font-semibold">
-            Reach out to us
+        <div className="flex flex-col justify-center items-start gap-8">
+          <h1 className="text-white text-2xl justify-center font-semibold ">
+            
           </h1>
           <div className="flex justify-center items-center gap-3">
             <FaBuilding className="text-white size-12 " />
@@ -77,13 +99,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <FaMobile className="text-white size-5" />
-            <p className="text-slate-200">+2349068767395</p>
-          </div>
-          <div className="flex justify-center items-center gap-3">
-            <FaFax className="text-white size-5 cursor-pointer" />
-
-            <p className="text-slate-200 cursor-pointer">+2348033935562</p>
+            <FaLocationDot className="text-white size-5" />
+            <p className="text-slate-200">Lagos, Nigeria</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
@@ -111,13 +128,13 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-4">
             <img
-              src={prop8}
+              src={prop10}
               alt=""
               className="w-[120px] rounded-lg  transform hover:scale-110 
                 cursor-pointer transition-transform duration-300"
             />
             <div>
-              <h1 className="text-lg text-white">Smart view from beach</h1>
+              <h1 className="text-lg text-white">Smart view from the island</h1>
               <p className="text-slate-400"></p>
             </div>
           </div>
@@ -131,7 +148,7 @@ const Footer = () => {
         className="bg-red-600 p-4 rounded-full hover:bg-black 
        cursor-pointer fixed lg:buttom-12 buttom-6 right-6"
       >
-        <Link to="hero" spy={true} offset={-100} smooth={true}>
+        <Link to="contact" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="size-5 text-black" />
         </Link>
       </div>
@@ -149,7 +166,7 @@ const Footer = () => {
             <FaSun size={20} className="text-black z-30" />
           )}
         </button>
-        <h1 className="bg-black text-white  grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
+        <h1 className="bg-black text-white text-xs grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
           Copyright 2024 Zuriel Real estate Properties.
         </h1>
       </div>

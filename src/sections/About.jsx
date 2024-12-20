@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import aboutimg from '../assets/images/about.jpg';
+import banky from '../assets/images/banky5.jpg';
 import { useDarkMode } from '../components/DarkModeContext';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +22,7 @@ const About = () => {
     grid-cols-1 justify-center items-center gap-10`}>
 
       <div>
-        <img data-aos= "zoom in" src={aboutimg} alt=' about image' 
+        <img data-aos= "zoom in" src={banky} alt='banky' 
         className='rounded 2xl lg:w-[500px] lg:h-[600px]' />
       </div>
       <div className='flex flex-col justify-center items-start gap-8'>
