@@ -53,7 +53,7 @@ const Header = () => {
         <img
           src={tade}
           alt="company logo"
-          className="lg:w-[150px] w-[200px] dark:invert"
+          className="lg:w-[95px] w-[100px] dark:invert"
         />
       </div>
       {/* Desktop menu starts here */}
