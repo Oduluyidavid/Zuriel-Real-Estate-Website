@@ -42,7 +42,7 @@ const Footer = () => {
             className="flex justify-start items-center gap-4 mt-4"
           >
             <a
-              href="https://Wa.me/+2348065074094"
+              href="https://wa.link/8qwpgh"
               target="blank"
               className="ml-1 h-[inherit]"
             >
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
             </a>
             <a
-              href="https://Wa.me/+2348065074094"
+              href="https://www.linkedin.com/in/zuriel-real-estate-consulting-37385b307/"
               target="blank"
               className="ml-1 h-[inherit]"
             >
@@ -71,12 +71,18 @@ const Footer = () => {
             >
               <FaInstagram className="size-5" />
             </div>
+            <a
+              href="https://x.com/IamAladesanmi"
+              target="blank"
+              className="ml-1 h-[inherit]"
+            >
             <div
               className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
             >
               <FaTwitter className="size-5" />
             </div>
+            </a>
             <div
               className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"

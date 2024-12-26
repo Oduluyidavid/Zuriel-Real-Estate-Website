@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <>
       <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
-        <section id="home"className="w-[70] h-[500px] m-auto bg-cover bg-center flex  rounded-xl  justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
+        <section id="home"className="w-[95] h-[600px] m-auto bg-cover bg-center flex  rounded-xl  justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
           style={{ background: `url(${tobi})` }} >
           <h1 data-aos="zoom-in" className="text-6xl text-white font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Where dreams find their perfect place</h1>
           <p data-aos-="zoom-in" className="text-white text-xl lg:pr-[500px] pr-0" >
