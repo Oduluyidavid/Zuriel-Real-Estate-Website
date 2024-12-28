@@ -53,11 +53,11 @@ const Header = () => {
         <img
           src={tade}
           alt="company logo"
-          className="lg:w-[95px] w-[100px] dark:invert"
+          className="lg:w-[75px] w-[90px] dark:invert"
         />
       </div>
       {/* Desktop menu starts here */}
-      <ul className="lg:justify-center items-center gap-8 hidden ">
+      <ul className="hidden lg:flex gap-8">
         {navItems.map(({ link, path }) => (
           <Link
             key={path}
@@ -74,7 +74,7 @@ const Header = () => {
       </ul>
 
       {/*mobile menu starts here*/}
-      <div className="flex justify-center items-center " onClick={toggleMenu}>
+      <div className="lg:hidden " onClick={toggleMenu}>
         <div>
           {isMenuOpen ? (
             <FaXmark className="text-black dark:text-white text-2xl cursor-pointer" />
@@ -86,7 +86,7 @@ const Header = () => {
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } w-full h-fit bg-slate-800 p-4 absolute top-[80px] left-0`}
+        } w-full  bg-slate-800 p-4 absolute top-[70px] left-0 z-40`}
         onClick={closeMenu}
       >
         <ul className="flex flex-col justify-center items-center gap-2 w-full">

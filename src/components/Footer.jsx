@@ -110,8 +110,8 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
-            <a href="mailto:oduluyidavidadegoke@gmail.com">
-              <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
+            <a href="mailto:zurielrealestateconsulting@gmail.com">
+              <p className="text-slate-200">zurielrealestateconsulting@gmail.com</p>
             </a>
           </div>
         </div>
